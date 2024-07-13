@@ -1,6 +1,7 @@
 package com.sam.demo.controller;
 
 
+import com.sam.demo.dto.CountType;
 import com.sam.demo.model.Task;
 import com.sam.demo.services.TaskService;
 import jakarta.persistence.EntityNotFoundException;
@@ -23,6 +24,10 @@ public class TaskController {
     @GetMapping("/task")
     public List<Task> getTask() {
         return taskService.getTasks();
+    }
+    @GetMapping("/task/vData/percentcounttype")
+    public List<CountType> getPercentageGroupByType() {
+        return taskService.getPercentageGroupByType();
     }
 
     @PostMapping("/task")
