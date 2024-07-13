@@ -30,6 +30,12 @@ public class TaskController {
         return taskService.save(task);
     }
 
+    @GetMapping("/task/{id}")
+    public Task getById(@PathVariable Long id) {
+        return taskService.getTaskById(id).orElseThrow(() -> new EntityNotFoundException("Task not found"));
+    }
+
+
     @PutMapping("/task/{id}")
     public ResponseEntity<?> addTask(@RequestBody Task taskPara, @PathVariable Long id) {
         if (taskService.existById(id)) {
@@ -52,6 +58,28 @@ public class TaskController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(message);
         }
     }
+
+    @DeleteMapping("/task/{id}")
+    public ResponseEntity<?> deleteTask( @PathVariable Long id) {
+        if (taskService.existById(id)) {
+            taskService.delete(id);
+
+            HashMap<String, String> message = new HashMap<>();
+            message.put("message", "Task Deleted..");
+
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(message);
+
+
+
+        } else {
+
+            HashMap<String, String> message = new HashMap<>();
+            message.put("message", "Task not found");
+
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(message);
+        }
+    }
+
 
 
 
