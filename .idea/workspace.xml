@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="251c4900-977a-456f-ab7c-db66231338a4" name="Changes" comment="Delete method done">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/dto/CountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/repositories/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/repositories/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/services/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/sam/demo/services/TaskService.java" afterDir="false" />
-    </list>
+    <list default="true" id="251c4900-977a-456f-ab7c-db66231338a4" name="Changes" comment="percentage method done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +81,7 @@
       <workItem from="1720760369864" duration="3842000" />
       <workItem from="1720766525884" duration="11542000" />
       <workItem from="1720863171418" duration="2840000" />
-      <workItem from="1720868534176" duration="1802000" />
+      <workItem from="1720868534176" duration="2308000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -121,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720864759853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="percentage method done">
+      <option name="closed" value="true" />
+      <created>1720870843144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720870843144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +135,7 @@
     <MESSAGE value="file created" />
     <MESSAGE value="Get,Post,Put method done" />
     <MESSAGE value="Delete method done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete method done" />
+    <MESSAGE value="percentage method done" />
+    <option name="LAST_COMMIT_MESSAGE" value="percentage method done" />
   </component>
 </project>
