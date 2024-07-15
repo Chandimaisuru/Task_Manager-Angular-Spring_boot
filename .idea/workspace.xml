@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="251c4900-977a-456f-ab7c-db66231338a4" name="Changes" comment="percentage method done" />
+    <list default="true" id="251c4900-977a-456f-ab7c-db66231338a4" name="Changes" comment="percentage method done">
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +86,7 @@
       <workItem from="1720766525884" duration="11542000" />
       <workItem from="1720863171418" duration="2840000" />
       <workItem from="1720868534176" duration="2308000" />
+      <workItem from="1721028461393" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
